@@ -1,0 +1,27 @@
+!! URxvt Theme
+#include "/home/tomek/.xres/themes/mocha.Xresources"
+
+!! URxvt Appearance
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+!URxvt.geometry: 92x24
+URxvt.internalBorder: 10
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+!URxvt.iso14755: false
+URxvt.font: xft:inconsolata:size=11
+
+!! URxvt Functions 
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.perl-ext-common: default,resize-font,-confirm-paste
+!URxvt.keysym.C-Down: resize-font:smaller
+!URxvt.keysym.C-Up: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:reset
+URxvt.iso14755: false
+URxvt.iso14755_52: false
