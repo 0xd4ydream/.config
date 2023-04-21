@@ -1,10 +1,10 @@
-!! URxvt Theme
+!! Theme
 #include "/home/tomek/.xres/themes/mocha.Xresources"
 
 !! URxvt Appearance
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
-!URxvt.geometry: 92x24
+URxvt.geometry: 80x-1
 URxvt.internalBorder: 10
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
@@ -14,7 +14,7 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 !URxvt.iso14755: false
-URxvt.font: xft:inconsolata:size=11
+URxvt.font: xft:inconsolata:size=12,xft:font awesome 6 free solid
 
 !! URxvt Functions 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
